@@ -1,0 +1,10 @@
+ datasource:
+    password: admin
+    url: jdbc:postgresql://localhost:5432/supplier
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
